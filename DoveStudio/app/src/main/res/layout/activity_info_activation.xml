@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#004380"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/icon"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BENVENUTO!!!"
+        android:textSize="40dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="quest'App ti permette di verificare se in un'aula studio c'è un posto a disposizione per te! \nPer poter utilizzare la meglio questa applicazione e aiutare il prossimo alla ricerca del suo posto dovrai attivare la localizzazione e il bluetooth"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        />
+
+    <android.widget.Button
+        android:id="@+id/bttInfoActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_white_background"
+        android:text="Attiva"
+        android:textSize="30dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"/>
+</LinearLayout>

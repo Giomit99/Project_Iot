@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DoveStudio</string>
+    <string name="strtvMessaggio">Inserisci un messaggio</string>
+
+    <string name="strBttStartActivity">Start Activity</string>
+
+    <string name="LAUNCH_ACTIVITY">com.andrea.passaggiodatitraactivities.AnotherActivity</string>
+
+    <string name="LABEL_MESSAGE">LABEL_MESSAGE</string>
+</resources>
